@@ -903,17 +903,17 @@
                     <key>BundlePath</key>
                     <string>System/Library/Extensions/IONetworkingFamily.kext</string>
                     <key>Comment</key>
-                    <string>Force load for itlwm compatibility</string>
+                    <string>Force load IO80211FamilyLegacy dependency for AirportItlwm on Ventura</string>
                     <key>Enabled</key>
-                    <false/>
+                    <true/>
                     <key>ExecutablePath</key>
                     <string>Contents/MacOS/IONetworkingFamily</string>
                     <key>Identifier</key>
                     <string>com.apple.iokit.IONetworkingFamily</string>
                     <key>MaxKernel</key>
-                    <string>13.99.99</string>
+                    <string>22.99.99</string>
                     <key>MinKernel</key>
-                    <string></string>
+                    <string>22.0.0</string>
                     <key>PlistPath</key>
                     <string>Contents/Info.plist</string>
                 </dict>
