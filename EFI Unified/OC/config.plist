@@ -1144,7 +1144,7 @@
                 <key>ProvideCurrentCpuInfo</key>
                 <true/>
                 <key>SetApfsTrimTimeout</key>
-                <integer>0</integer>
+                <integer>-1</integer>
                 <key>ThirdPartyDrives</key>
                 <false/>
                 <key>XhciPortLimit</key>
@@ -1204,7 +1204,7 @@
                 <key>ApplePanic</key>
                 <false/>
                 <key>DisableWatchDog</key>
-                <false/>
+                <true/>
                 <key>DisplayDelay</key>
                 <integer>0</integer>
                 <key>DisplayLevel</key>
@@ -1363,7 +1363,7 @@
                 <key>4D1FDA02-38C7-4A6A-9CC6-4BCCA8B30102</key>
                 <dict>
                     <key>revpatch</key>
-                    <string>sbvmm</string>
+                    <string>sbvmm,asset</string>
                     <key>rtc-blacklist</key>
                     <data></data>
                 </dict>
@@ -1378,7 +1378,7 @@
                     <key>bluetoothInternalControllerInfo</key>
                     <data>AAAAAAAAAAAAAAAAAAA=</data>
                     <key>boot-args</key>
-                    <string>alcid=20 igfxrpsc=1 igfxonln=1 igfxagdc=0 igfxframe=0x591B0000 nvme=-p net.inet.tcp.delayed_ack=0 igfxcdc=3 igfxdvmt=7 alcdelay=1000 alcverbs=1 darkwake=0 acpi_sleep=s3</string>
+                    <string>alcid=20 igfxrpsc=1 igfxonln=1 igfxagdc=0 nvme=-p net.inet.tcp.delayed_ack=0 igfxcdc=3 igfxdvmt=7 alcdelay=1000 alcverbs=1 darkwake=0 acpi_sleep=s3</string>
                     <key>csr-active-config</key>
                     <data>bwIAAA==</data>
                     <key>prev-lang:kbd</key>
@@ -1487,7 +1487,7 @@
                 <key>EnableJumpstart</key>
                 <true/>
                 <key>GlobalConnect</key>
-                <true/>
+                <false/>
                 <key>HideVerbose</key>
                 <true/>
                 <key>JumpstartHotPlug</key>
@@ -1662,7 +1662,7 @@
                 <key>IgnoreTextInGraphics</key>
                 <false/>
                 <key>ProvideConsoleGop</key>
-                <false/>
+                <true/>
                 <key>ReconnectGraphicsOnConnect</key>
                 <false/>
                 <key>ReconnectOnResChange</key>
@@ -1676,7 +1676,7 @@
                 <key>TextRenderer</key>
                 <string>BuiltinGraphics</string>
                 <key>UIScale</key>
-                <integer>0</integer>
+                <integer>-1</integer>
                 <key>UgaPassThrough</key>
                 <false/>
             </dict>
